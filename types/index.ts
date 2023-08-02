@@ -1,4 +1,4 @@
-import { LucideIcon } from "lucide-react";
+import { LucideIcon } from 'lucide-react';
 
 export interface HeadingProps {
   title: string;
@@ -6,4 +6,8 @@ export interface HeadingProps {
   icon: LucideIcon;
   iconColor?: string;
   bgColor?: string;
+}
+
+export interface EmptyProps {
+  label: string;
 }
