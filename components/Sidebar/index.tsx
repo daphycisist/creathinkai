@@ -6,6 +6,7 @@ import {
   ImageIcon,
   LayoutDashboard,
   MessageSquare,
+  Music,
   Settings,
   VideoIcon,
 } from 'lucide-react';
@@ -38,6 +39,12 @@ const routes = [
     label: 'Video Generation',
     icon: VideoIcon,
     href: '/video',
+    color: 'text-orange-500',
+  },
+  {
+    label: 'Music Generation',
+    icon: Music,
+    href: '/music',
     color: 'text-emerald-500',
   },
   {
